@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    box-sizing: border-box;
+    font-family: "MuseoSans",Arial,sans-serif;
+}
+.header {
+    height: 10vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative; }
+    .header__logo-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform:translate(-50%,-50%); }
+    .header__logo {
+        height: 2rem;}
+.menu {
+    margin-top: 5rem;}
+    .card {
+        text-align: center;
+        height: 50vh;}
+        .card__picture-box {
+            position: relative;
+            margin-bottom: 1rem;}
+            .card__picture {
+                height: 25rem;}
+        .card__time {
+            position: absolute;
+            top: 18%;
+            left:87%;}
+            .card__time-span {
+                color: white;}
+        .card__grouping {
+            margin-bottom: 1rem;
+            width:100%;
+            content: "";
+            display: table;
+            clear: both;}
+            .card__title-box {
+                float: left;
+                margin-left: 3rem;}
+                .card__title {
+                    font-size: 1.6rem;
+                    color: #333;}
+            .card__rating-box {
+                float: right;
+                margin-right: 3rem;}
+                .checked {
+                    color: #276fbf;}
+                .card__rating-number {
+                    color: gray;}
+        .card__subtitle-box {
+            text-align: left;
+            margin-left: 3rem;}
+            card__subtitle {
+                font-size: 1.6rem;
+                color: #333;}
